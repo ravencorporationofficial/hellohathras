@@ -1,0 +1,342 @@
+﻿________________
+
+
+Hello Hathras App – Master Requirement Document (Short & Clear Q/A)
+________________
+
+
+1. What are we building?
+A district-level mobile app Hello Hathras for citizens to get official information, alerts, schemes, directory, and complaint access from district administration in one place.
+Goal:
+Single digital entry point for Hathras district.
+________________
+
+
+2. Why is this app needed?
+Current problems:
+* No district-specific platform
+* General apps like UMANG not district focused
+* Citizens depend on middlemen
+* Scheme rules confusing
+* Rumours spread on WhatsApp/social media
+* Alerts don’t reach everyone
+* People don’t know correct office
+* Complaint tracking difficult
+* Emergency info not available quickly
+App will solve these issues.
+________________
+
+
+3. Objective of the app
+* Single platform for Hathras
+* Authentic govt info
+* Fast alerts
+* Scheme guidance
+* Complaint access
+* Officer directory
+* Public updates
+* AI assistance
+________________
+
+
+4. Who controls the app?
+Admin control with district:
+* DM Office
+* NIC / IT Cell
+* Department officers
+* Nodal officers
+________________
+
+
+5. What will be on Home Screen?
+* News / Notices
+* Alerts
+* Schemes
+* Complaint
+* Directory
+* Public updates
+* AI Help button
+* Banner / slider
+UI should be like
+hathras.nic.in
+(Simple official layout)
+________________
+
+
+6. What updates will be shown?
+* DM / SP orders
+* Recruitment info
+* Camps / drives
+* Vaccination
+* Krishi camps
+* Awareness rallies
+* Jan Sunwai
+* Lok Adalat
+* Public events
+* Emergency notice
+Push notification required.
+________________
+
+
+7. What public utility alerts?
+* Road diversion
+* Electricity shutdown
+* Water supply
+* Weather / heatwave
+* Health advisory
+* Transport updates
+* Camp info
+* Disaster alert
+Officer should be able to post alert.
+________________
+
+
+8. What directory is needed?
+Include:
+* Collectorate
+* Tehsil
+* Block
+* Police stations (with jurisdiction)
+* Hospitals / CHC / PHC
+* Fire station
+* Electricity office
+* GST / BSNL / Post
+* Courts
+* Jan Aushadhi
+* CSC / Lokvani
+* Schools
+* Other govt offices
+* Blood donation volunteers list
+Fields:
+* Name
+* Department
+* Phone
+* Address
+* Time to meet
+* Location
+Blood donors fields:
+* Name
+* Blood group
+* Phone
+* Area
+________________
+
+
+9. Complaint system?
+Do NOT create a new system.
+Integrate with:
+* CM Jansunwai
+* Department portals
+* State grievance portals
+The app acts as an entry point.
+________________
+
+
+10. Scheme module
+Show:
+* Eligibility
+* Documents
+* Apply link
+* Office
+* Last date
+* Nodal officer
+Must show district-correct rules
+Example: Widow pension rules differ in UP.
+________________
+
+
+11. Alert / Notice system
+Admin can post:
+* Text
+* Image
+* PDF
+* Video
+Push notification required.
+Roles allowed to post:
+* DM
+* SP
+* Dept officer
+* Nodal officer
+________________
+
+
+12. AI feature required?
+Yes.
+AI inside app.
+User can ask:
+* Scheme eligibility
+* Documents needed
+* Where to apply
+* Complaint process
+* Officer contact
+* Weather / AQI
+* Tourist places
+Hindi + English.
+Example:
+"School ke paas sharab ki dukan hai"
+→ AI shows a complaint link.
+AI can use Indian tools like Zoho / Indian AI.
+________________
+
+
+13. Admin panel needed?
+Roles:
+* DM
+* SP
+* Dept officer
+* Nodal officer
+* IT admin (NIC)
+Admin can:
+* Post notice
+* Add directory
+* Update schemes
+* Send alert
+________________
+
+
+14. Will Govt norms be followed?
+Yes.
+Design should allow:
+* Security audit
+* STQC later
+* Data protection rules
+* Govt hosting later
+________________
+
+
+15. STQC required initially?
+No.
+Plan:
+Phase 1 → Basic APK
+Next Phase → Audit, STQC (if required)
+________________
+
+
+16. MeghRaj cloud needed?
+Not initially.
+Phase 1 → Private / Indian cloud
+Next Phase → Govt cloud (if needed)
+The system should support migration.
+________________
+
+
+17. Will the NIC website be replaced?
+No.
+The website stays.
+App UI should look like
+hathras.nic.in
+Purpose:
+* Familiar layout
+* Easy update
+* Govt style
+* Less training
+App = Mobile version of website
+________________
+
+
+18. Why start with APK?
+* Budget friendly
+* Fast approval
+* Easy testing
+* Can expand later
+Phase 1 modules:
+* Alerts
+* News
+* Schemes
+* Directory
+* Complaint link
+* Admin panel
+Later:
+* AI
+* Dashboard
+* Integration
+________________
+
+
+19. Should we build a new dashboard?
+Not required first.
+Use existing portals:
+* CM Jansunwai
+* Scheme portals
+* NIC data
+* State databases
+Build new only if needed.
+________________
+
+
+20. Should we avoid duplicate systems?
+Yes.
+Priority:
+1. Use existing portal
+2. Integrate
+3. Link
+4. Build new only if required
+App role:
+Guide + Inform + Connect
+________________
+
+
+21. Government Apps section needed?
+Yes.
+Include:
+* UMANG
+* Bhashini
+* DigiLocker
+* mAadhaar
+* Aarogya Setu
+* Parivahan
+* UP Govt apps
+Purpose:
+All apps in one place.
+________________
+
+
+22. Should project be budget friendly?
+Yes.
+Phase 1:
+* Basic APK
+* Simple UI
+* Limited server
+Phase 2:
+* AI
+* Integration
+Phase 3:
+* STQC
+* MeghRaj
+* Full system
+________________
+
+
+23. Should future migration be possible?
+Yes.
+Architecture must support:
+* Cloud change
+* Server change
+* Govt hosting later
+* Security upgrade
+________________
+
+
+24. Final design philosophy
+App should be:
+* Simple like district website
+* Official look
+* Budget friendly
+* Integration based
+* Govt compliant ready
+* Expandable later
+Goal:
+One district app
+Single entry point
+Not new system
+But one platform for all services
+________________
+
+
+25. Future expansion
+Possible later:
+* All districts of UP
+________________
+
+
+Design references
