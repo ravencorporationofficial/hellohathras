@@ -2,8 +2,8 @@
 ### District-Level Mobile Application for Hathras, Uttar Pradesh
 **Prepared by:** Shivam Gupta (Lead Developer)  
 **For:** Parth Maheshwari → DM Office, Hathras  
-**Date:** March 29, 2026  
-**Version:** 2.0 (Expanded Quotation Edition)
+**Date:** April 2, 2026  
+**Version:** 2.1 (Updated with Indian AI Alternatives)
 
 ---
 
@@ -89,7 +89,7 @@ Hello Hathras is a **district-level mobile application** designed to serve as th
 #### Cost-Benefit Analysis for DM:
 | Metric | Value |
 |--------|-------|
-| Development Cost (Phase 1) | ₹3.5–5.8 Lakhs |
+| Development Cost (Phase 1) | ₹4.5–5.5 Lakhs |
 | Citizens Served | 15,64,708 |
 | Cost Per Citizen | < ₹0.37 |
 | Time Saved Per Service Query | ~2 hours per citizen |
@@ -418,9 +418,11 @@ HOME
 │  └── CI/CD: GitHub Actions                           │
 │                                                      │
 │  AI MODULE (Phase 2)                                 │
-│  ├── Google Gemini API                               │
+│  ├── BHASHINI (MeitY) — ASR, TTS, Translation (FREE) │
+│  ├── Sarvam AI (Primary LLM — Indian, IndiaAI Mission)│
+│  ├── Google Gemini API (Fallback LLM)                │
 │  ├── RAG on district data (schemes, contacts)        │
-│  ├── Bhashini API (Indian language translation)      │
+│  ├── VoicERA (Voice AI — BHASHINI stack)             │
 │  └── Custom knowledge base in Firestore              │
 │                                                      │
 │  INTEGRATIONS                                        │
@@ -729,19 +731,75 @@ Offline Data   ──► Hive Cache  ──► Local Display       ──► No 
 ## 10. AI CHATBOT MODULE (Phase 2)
 
 ### Capabilities:
-- **Language**: Hindi + English (bilingual)
+- **Language**: Hindi + English (bilingual) — with voice input/output support
 - **Knowledge Base**: All district data (schemes, directory, services, contacts)
+- **Voice Interface**: Citizens can speak queries in Hindi — critical for rural/semi-literate users
 - **Sample Queries**:
   - "Widow pension ke liye kya documents chahiye?"
   - "Nearest police station from my location"
   - "School ke paas sharab ki dukan hai" → Shows complaint link
   - "Weather aaj kaisa hai Hathras mein?"
 
-### Technical Implementation:
-- **LLM**: Google Gemini API (cost-effective, Hindi support)
-- **RAG Pipeline**: District data indexed in vector DB
-- **Translation**: Bhashini API for better Hindi understanding
-- **Cost**: ~₹5,000-10,000/month for API calls
+### Technical Implementation — India-First AI Strategy:
+
+> The AI module prioritizes **India-origin AI models** aligned with the **IndiaAI Mission** (₹10,370 Cr government initiative), ensuring data sovereignty and superior Hindi performance.
+
+| AI Layer | Technology | Role | Monthly Cost (₹) |
+|----------|-----------|------|------------------|
+| **Translation & Voice** | BHASHINI (MeitY) + VoicERA | ASR (Speech→Text), TTS (Text→Speech), Translation | **₹0** (Govt DPI — Free) |
+| **Primary LLM** | Sarvam AI (IndiaAI Mission partner) | Chatbot reasoning, RAG on district data | 3,000 – 8,000 |
+| **Fallback LLM** | Google Gemini API | Complex queries, global knowledge fallback | 2,000 – 5,000 |
+| **Knowledge Base** | Firestore + Vector DB | District data indexed for RAG retrieval | ₹0 (free tier) |
+
+### Indian AI Alternatives Evaluated:
+
+| AI Provider | Type | Best For | Cost | Data Sovereignty |
+|------------|------|----------|------|:----------------:|
+| **Sarvam AI** ✅ (Recommended) | Indian LLM (2B–105B params) | Hindi chatbot, voice-first, enterprise | ₹3K–8K/mo | ✅ India |
+| **BharatGPT / Hanooman** | Indian LLM (IIT Bombay + Jio) | Governance, healthcare, multilingual | Free–5K/mo | ✅ India |
+| **BharatGen / Param2** | Indian LLM (17B params) | Governance, agriculture, public sector | TBD | ✅ India |
+| **CoRover BharatGPT Mini** | Indian SLM (Small Language Model) | Low-end devices, offline basic Q&A | ₹2K–5K/mo | ✅ India |
+| **BHASHINI** ✅ (Must-Have) | Govt DPI (350+ AI models) | Translation, ASR, TTS — 22+ languages | **FREE** | ✅ India (Govt) |
+| **Google Gemini** (Fallback) | Global LLM | Complex reasoning, global knowledge | ₹5K–12K/mo | ❌ Global |
+
+### Recommended AI Architecture:
+
+```
+CITIZEN QUERY (Voice/Text)
+    │
+    ▼
+BHASHINI (FREE — Govt DPI)
+├── ASR: Voice → Text (Hindi)
+├── Language Detection
+└── Translation (if needed)
+    │
+    ▼
+SARVAM AI (Primary LLM — Indian)
+├── RAG on District Data (Firestore)
+├── Scheme eligibility reasoning
+├── Directory search
+└── Complaint routing
+    │ (Fallback for complex queries)
+    ▼
+GOOGLE GEMINI (Fallback — Global)
+├── Complex multi-step reasoning
+└── Global knowledge queries
+    │
+    ▼
+BHASHINI TTS (FREE — Govt DPI)
+└── Text → Voice (Hindi response)
+    │
+    ▼
+CITIZEN GETS ANSWER (Text + Voice)
+```
+
+### AI Cost Comparison:
+
+| Scenario | Monthly (₹) | Annual (₹) |
+|----------|:-----------:|:----------:|
+| **India-First** (Sarvam + BHASHINI free) | 3,000 – 8,000 | 36,000 – 96,000 |
+| **Hybrid** (Sarvam + Gemini fallback) | 5,000 – 13,000 | 60,000 – 1,56,000 |
+| **Global Only** (Gemini only) | 5,000 – 12,000 | 60,000 – 1,44,000 |
 
 ---
 
@@ -897,9 +955,10 @@ Offline Data   ──► Hive Cache  ──► Local Display       ──► No 
 
 | # | Item | Provider | Monthly (₹) | Annual (₹) |
 |---|------|----------|-------------|------------|
-| 1 | **Google Gemini API** (AI chatbot — ~100K tokens/day) | Google | 5,000 – 12,000 | 60,000 – 1,44,000 |
-| 2 | **Bhashini API** (Hindi NLP — govt project, may be free) | MeitY | 0 – 2,000 | 0 – 24,000 |
-| 3 | **Vector Database** (Pinecone free tier / Chroma self-hosted) | Pinecone | 0 – 1,500 | 0 – 18,000 |
+| 1 | **Primary AI: Sarvam AI** (Indian LLM — chatbot reasoning, RAG) | Sarvam AI | 3,000 – 8,000 | 36,000 – 96,000 |
+| 2 | **BHASHINI + VoicERA** (ASR, TTS, Translation — Govt DPI) | MeitY | **0** | **0 (FREE)** |
+| 3 | **Fallback AI: Google Gemini API** (~100K tokens/day) | Google | 2,000 – 5,000 | 24,000 – 60,000 |
+| 4 | **Vector Database** (Pinecone free tier / Chroma self-hosted) | Pinecone | 0 – 1,500 | 0 – 18,000 |
 | 4 | **Apple Developer Account** (for iOS publishing) | Apple | — | 8,500 |
 | 5 | **Upgraded Firebase** (if users exceed free tier) | Google | 2,000 – 5,000 | 24,000 – 60,000 |
 | | **PHASE 2 INFRA SUBTOTAL** | | **₹7,000 – 20,500/mo** | **₹92,500 – 2,54,500/yr** |
@@ -1037,8 +1096,8 @@ Offline Data   ──► Hive Cache  ──► Local Display       ──► No 
 
 | Category | Amount (₹) |
 |----------|-----------|
-| AI Chatbot Development (Gemini + RAG + Bhashini) | 1,20,000 |
-| Bhashini API Integration & Hindi NLP | 30,000 |
+| AI Chatbot Development (Sarvam AI + RAG + BHASHINI + Gemini fallback) | 1,20,000 |
+| BHASHINI + VoicERA Integration (ASR, TTS, Translation — FREE API) | 15,000 |
 | iOS Build, Testing & App Store Submission | 50,000 |
 | Advanced Push Notification System | 25,000 |
 | Enhanced Analytics Dashboard (Admin) | 40,000 |
@@ -1295,7 +1354,8 @@ Area: 1,800.1 sq. km | Pop: 15,64,708 | Male: 8,36,127 | Female: 7,28,581 | Lang
 ---
 
 > **Document Status**: ✅ READY FOR DM PRESENTATION  
-> **Last Updated**: March 29, 2026  
+> **Last Updated**: April 2, 2026  
+> **Version**: 2.1 (Updated with Indian AI Alternatives)  
 > **Confidentiality**: For internal project discussion only
 
 *"Technology should simplify governance, not complicate it. Hello Hathras makes every government service just one tap away."*

@@ -44,47 +44,47 @@ Phase 1 is the **Minimum Viable Product (MVP)** — a fully functional Android a
 
 ### Phase 1 At a Glance
 
-| Parameter | Details |
-|-----------|---------|
-| **Platform** | Android (APK sideloading + Google Play Store) |
-| **Duration** | 16 weeks (4 months) |
-| **Budget** | ₹4,50,000 – ₹5,50,000 (excl. GST) |
-| **Citizens Served** | 15,64,708 (entire Hathras district) |
-| **Cost Per Citizen** | < ₹0.37 |
-| **Total App Screens** | 27 screens across 13+ modules |
-| **Developer** | Shivam Gupta (Full-stack — Flutter + Backend + Admin Panel) |
-| **Infrastructure Cost** | Near-zero (Firebase free tier) |
-| **Year 1 Maintenance** | Included in project cost |
+| Parameter               | Details                                                      |
+|-------------------------|--------------------------------------------------------------|
+| **Platform**            | Android (APK sideloading + Google Play Store)                |
+| **Duration**            | 16 weeks (4 months)                                          |
+| **Budget**              | ₹4,50,000 – ₹5,50,000 (excl. GST)                           |
+| **Citizens Served**     | 15,64,708 (entire Hathras district)                          |
+| **Cost Per Citizen**    | < ₹0.37                                                     |
+| **Total App Screens**   | 27 screens across 13+ modules                                |
+| **Developer**           | Shivam Gupta (Full-stack — Flutter + Backend + Admin Panel)  |
+| **Infrastructure Cost** | Near-zero (Firebase free tier)                               |
+| **Year 1 Maintenance**  | Included in project cost                                     |
 
 ### ✅ Phase 1 Delivers
 
-| Deliverable | Description |
-|-------------|-------------|
-| Android Mobile App | 27 screens, 13+ modules — native Flutter app |
-| Admin Panel | React.js web dashboard for DM office content management |
-| Push Notifications | Real-time emergency alerts to all citizens via FCM |
-| District Directory | Every office, hospital, police station, school — click-to-call + maps |
-| Emergency SOS | One-tap call to Police (100), Ambulance (108), Fire (101), Helplines |
-| Scheme Navigator | Eligibility, documents, apply links for all government schemes |
-| Citizen Services | Certificates, land records, ration card — quick portal links |
-| News & Alerts | Live feed from district administration with push alerts |
-| Tourism Module | Dauji Temple, Manglaytan, Ghanta Ghar — photos, maps, accommodation |
-| Offline Support | Directory & helplines work without internet |
-| Bilingual | Full Hindi + English support |
-| Backend API | Node.js/Firebase — secure, scalable, free-tier hosted |
+| Deliverable          | Description                                                           |
+|----------------------|-----------------------------------------------------------------------|
+| Android Mobile App   | 27 screens, 13+ modules — native Flutter app                         |
+| Admin Panel          | React.js web dashboard for DM office content management               |
+| Push Notifications   | Real-time emergency alerts to all citizens via FCM                    |
+| District Directory   | Every office, hospital, police station, school — click-to-call + maps |
+| Emergency SOS        | One-tap call to Police (100), Ambulance (108), Fire (101), Helplines  |
+| Scheme Navigator     | Eligibility, documents, apply links for all government schemes        |
+| Citizen Services     | Certificates, land records, ration card — quick portal links          |
+| News & Alerts        | Live feed from district administration with push alerts               |
+| Tourism Module       | Dauji Temple, Manglaytan, Ghanta Ghar — photos, maps, accommodation  |
+| Offline Support      | Directory & helplines work without internet                           |
+| Bilingual            | Full Hindi + English support                                          |
+| Backend API          | Node.js/Firebase — secure, scalable, free-tier hosted                 |
 
 ### ❌ Deferred to Later Phases
 
-| Feature | Phase | Reason |
-|---------|-------|--------|
-| AI Chatbot (Hindi/English) | Phase 2 | Requires Gemini API, higher recurring cost |
-| iOS App | Phase 2 | Apple Developer Account + testing |
-| Bhashini NLP Integration | Phase 2 | Depends on AI module |
-| Blood Donor Directory | Phase 3 | Nice-to-have, not critical for MVP |
-| STQC Audit | Phase 3 | Government certification process |
-| NIC/MeghRaj Cloud Migration | Phase 3 | Government infrastructure process |
-| Security Audit (VAPT) | Phase 3 | Formal third-party audit |
-| Advanced DM Analytics Dashboard | Phase 3 | Advanced reporting & export |
+| Feature                            | Phase   | Reason                                                                  |
+|------------------------------------|---------|-------------------------------------------------------------------------|
+| AI Chatbot (Hindi/English)         | Phase 2 | Requires AI API (Sarvam AI / Gemini / BHASHINI) — higher recurring cost |
+| iOS App                            | Phase 2 | Apple Developer Account + testing                                       |
+| Bhashini NLP + VoicERA Integration | Phase 2 | FREE govt DPI — depends on AI module                                    |
+| Blood Donor Directory              | Phase 3 | Nice-to-have, not critical for MVP                                      |
+| STQC Audit                         | Phase 3 | Government certification process                                        |
+| NIC/MeghRaj Cloud Migration        | Phase 3 | Government infrastructure process                                       |
+| Security Audit (VAPT)              | Phase 3 | Formal third-party audit                                                |
+| Advanced DM Analytics Dashboard    | Phase 3 | Advanced reporting & export                                             |
 
 ---
 
@@ -93,15 +93,15 @@ Phase 1 is the **Minimum Viable Product (MVP)** — a fully functional Android a
 ### The Government Approval Reality
 Government projects go through multiple phases of approvals. A lean Phase 1 approach offers strategic advantages:
 
-| Parameter | Traditional Full-Project Approach | Our Lean Phase 1 Approach |
-|-----------|----------------------------------|--------------------------|
-| **Upfront Cost** | ₹16–20 Lakhs | ₹4.5–5.5 Lakhs |
-| **Time to First Delivery** | 10+ months | 4 months |
-| **Financial Risk** | High — large upfront commitment | Minimal — prove concept first |
-| **Approval Complexity** | Complex — large budget justification | Easier — smaller budget |
-| **Feature Delivery** | All at once (overwhelming) | Core first, add based on feedback |
-| **ROI Justification** | Difficult upfront | Quick citizen impact = clear ROI |
-| **Failure Recovery** | Costly — large sunk cost | Minimal — small investment |
+| Parameter                | Traditional Full-Project Approach        | Our Lean Phase 1 Approach                |
+|--------------------------|------------------------------------------|------------------------------------------|
+| **Upfront Cost**         | ₹16–20 Lakhs                             | ₹4.5–5.5 Lakhs                           |
+| **Time to First Delivery** | 10+ months                             | 4 months                                 |
+| **Financial Risk**       | High — large upfront commitment          | Minimal — prove concept first            |
+| **Approval Complexity**  | Complex — large budget justification     | Easier — smaller budget                  |
+| **Feature Delivery**     | All at once (overwhelming)               | Core first, add based on feedback        |
+| **ROI Justification**    | Difficult upfront                        | Quick citizen impact = clear ROI         |
+| **Failure Recovery**     | Costly — large sunk cost                 | Minimal — small investment               |
 
 ### How Phasing Keeps Costs Minimal
 
@@ -119,13 +119,13 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Benefits of Phased Approach
 
-| # | Benefit | Impact |
-|---|---------|--------|
-| 1 | Lower approval threshold | ₹5.5L is far easier to approve than ₹18L |
-| 2 | Proof of concept | Working app justifies Phase 2 funding |
-| 3 | Real citizen feedback | Usage data guides what to build next |
-| 4 | Political flexibility | Phase 1 delivered regardless of admin changes |
-| 5 | Scalable model | Success in Hathras = template for other districts |
+| #   | Benefit                  | Impact                                             |
+|-----|--------------------------|----------------------------------------------------|
+| 1   | Lower approval threshold | ₹5.5L is far easier to approve than ₹18L           |
+| 2   | Proof of concept         | Working app justifies Phase 2 funding              |
+| 3   | Real citizen feedback    | Usage data guides what to build next               |
+| 4   | Political flexibility    | Phase 1 delivered regardless of admin changes      |
+| 5   | Scalable model           | Success in Hathras = template for other districts  |
 
 ---
 
@@ -133,27 +133,27 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Current Situation
 
-| Aspect | Current Status |
-|--------|---------------|
-| **District Website** | hathras.nic.in exists — desktop-focused, not mobile-optimized |
-| **Existing App** | Old Hello-Hathras APK (lachhan.com) — outdated, non-functional |
-| **Citizen Internet Access** | 80%+ via mobile phones |
-| **Official Mobile Channel** | None — no direct way for DM office to reach citizens on mobile |
-| **Website Platform** | WordPress/PHP/MySQL on NIC S3WAAS — not designed for mobile |
+| Aspect                     | Current Status                                                     |
+|----------------------------|--------------------------------------------------------------------|
+| **District Website**       | hathras.nic.in exists — desktop-focused, not mobile-optimized      |
+| **Existing App**           | Old Hello-Hathras APK (lachhan.com) — outdated, non-functional     |
+| **Citizen Internet Access**| 80%+ via mobile phones                                             |
+| **Official Mobile Channel**| None — no direct way for DM office to reach citizens on mobile     |
+| **Website Platform**       | WordPress/PHP/MySQL on NIC S3WAAS — not designed for mobile        |
 
 ### Problems Phase 1 Solves
 
-| # | Problem | Impact on Citizens | Phase 1 Solution |
-|---|---------|-------------------|------------------|
-| 1 | No district-specific mobile app | Citizens scattered across WhatsApp for updates | ✅ Official Hello Hathras app |
-| 2 | Emergency alerts don't reach everyone | Lives at risk during disasters, heatwaves | ✅ Push notifications via FCM |
-| 3 | Citizens don't know which office to visit | Wasted time, frustration, multiple trips | ✅ Complete directory with maps & call |
-| 4 | Scheme eligibility rules are confusing | Eligible citizens miss government benefits | ✅ Scheme navigator with eligibility checker |
-| 5 | Citizens depend on middlemen | Corruption, delays, misinformation | ✅ Direct info with documents & portal links |
-| 6 | Emergency numbers not readily available | Delay in critical life-threatening situations | ✅ One-tap Emergency SOS |
-| 7 | Rumours spread on social media | Panic, misinformation during emergencies | ✅ Official verified news channel |
-| 8 | No real-time complaint tracking | Citizens feel unheard by administration | ✅ CM Jansunwai deep link integration |
-| 9 | Tourism info not easily accessible | Missed tourism revenue for district | ✅ Tourism module with maps & photos |
+| #   | Problem                                  | Impact on Citizens                              | Phase 1 Solution                                 |
+|-----|------------------------------------------|-------------------------------------------------|--------------------------------------------------|
+| 1   | No district-specific mobile app          | Citizens scattered across WhatsApp for updates  | ✅ Official Hello Hathras app                     |
+| 2   | Emergency alerts don't reach everyone    | Lives at risk during disasters, heatwaves       | ✅ Push notifications via FCM                     |
+| 3   | Citizens don't know which office to visit| Wasted time, frustration, multiple trips         | ✅ Complete directory with maps & call            |
+| 4   | Scheme eligibility rules are confusing   | Eligible citizens miss government benefits      | ✅ Scheme navigator with eligibility checker      |
+| 5   | Citizens depend on middlemen             | Corruption, delays, misinformation              | ✅ Direct info with documents & portal links      |
+| 6   | Emergency numbers not readily available  | Delay in critical life-threatening situations   | ✅ One-tap Emergency SOS                          |
+| 7   | Rumours spread on social media           | Panic, misinformation during emergencies        | ✅ Official verified news channel                 |
+| 8   | No real-time complaint tracking          | Citizens feel unheard by administration         | ✅ CM Jansunwai deep link integration             |
+| 9   | Tourism info not easily accessible       | Missed tourism revenue for district             | ✅ Tourism module with maps & photos              |
 
 ---
 
@@ -161,41 +161,41 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### ✅ INCLUDED IN PHASE 1 (MVP)
 
-| # | Module | Status | Priority | Screens |
-|---|--------|--------|----------|---------|
-| 1 | Home Screen (Banner, Grid, Feed, DM Card) | ✅ Full Build | P0 — Critical | 1 |
-| 2 | Emergency SOS (One-tap call) | ✅ Full Build | P0 — Critical | 1 |
-| 3 | District Directory (Offices, Officers, Utilities) | ✅ Full Build | P0 — Critical | 5 |
-| 4 | Helpline Numbers (Click-to-call) | ✅ Full Build | P0 — Critical | — |
-| 5 | Push Notifications (FCM) | ✅ Full Build | P0 — Critical | — |
-| 6 | News & Alerts Feed | ✅ Full Build | P1 — High | 3 |
-| 7 | Scheme Navigator | ✅ Full Build | P1 — High | 3 |
-| 8 | Citizen Services (Quick links) | ✅ Full Build | P1 — High | 2 |
-| 9 | Complaint Integration (Deep links) | ✅ Full Build | P1 — High | 2 |
-| 10 | Offline Caching (Hive) | ✅ Full Build | P1 — High | — |
-| 11 | Bilingual (Hindi/English) | ✅ Full Build | P1 — High | — |
-| 12 | Tourism Module | ✅ Full Build | P2 — Medium | 3 |
-| 13 | Documents Section (PDF viewer) | ✅ Full Build | P2 — Medium | 2 |
-| 14 | Government Apps Hub | ✅ Full Build | P2 — Medium | 1 |
-| 15 | Accessibility (Font, Contrast) | ✅ Full Build | P2 — Medium | — |
-| 16 | Admin Panel (Web Dashboard) | ✅ Full Build | P0 — Critical | Web |
-| 17 | Backend API (Node.js/Firebase) | ✅ Full Build | P0 — Critical | — |
-| 18 | WebView Container | ✅ Full Build | P1 — High | 1 |
-| 19 | Analytics (Firebase) | ✅ Full Build | P2 — Medium | — |
-| 20 | Onboarding / Splash | ✅ Full Build | P2 — Medium | 2 |
+| #    | Module                                              | Status        | Priority       | Screens |
+|------|-----------------------------------------------------|---------------|----------------|---------|
+| 1    | Home Screen (Banner, Grid, Feed, DM Card)           | ✅ Full Build | P0 — Critical  | 1       |
+| 2    | Emergency SOS (One-tap call)                        | ✅ Full Build | P0 — Critical  | 1       |
+| 3    | District Directory (Offices, Officers, Utilities)   | ✅ Full Build | P0 — Critical  | 5       |
+| 4    | Helpline Numbers (Click-to-call)                    | ✅ Full Build | P0 — Critical  | —       |
+| 5    | Push Notifications (FCM)                            | ✅ Full Build | P0 — Critical  | —       |
+| 6    | News & Alerts Feed                                  | ✅ Full Build | P1 — High      | 3       |
+| 7    | Scheme Navigator                                    | ✅ Full Build | P1 — High      | 3       |
+| 8    | Citizen Services (Quick links)                      | ✅ Full Build | P1 — High      | 2       |
+| 9    | Complaint Integration (Deep links)                  | ✅ Full Build | P1 — High      | 2       |
+| 10   | Offline Caching (Hive)                              | ✅ Full Build | P1 — High      | —       |
+| 11   | Bilingual (Hindi/English)                           | ✅ Full Build | P1 — High      | —       |
+| 12   | Tourism Module                                      | ✅ Full Build | P2 — Medium    | 3       |
+| 13   | Documents Section (PDF viewer)                      | ✅ Full Build | P2 — Medium    | 2       |
+| 14   | Government Apps Hub                                 | ✅ Full Build | P2 — Medium    | 1       |
+| 15   | Accessibility (Font, Contrast)                      | ✅ Full Build | P2 — Medium    | —       |
+| 16   | Admin Panel (Web Dashboard)                         | ✅ Full Build | P0 — Critical  | Web     |
+| 17   | Backend API (Node.js/Firebase)                      | ✅ Full Build | P0 — Critical  | —       |
+| 18   | WebView Container                                   | ✅ Full Build | P1 — High      | 1       |
+| 19   | Analytics (Firebase)                                | ✅ Full Build | P2 — Medium    | —       |
+| 20   | Onboarding / Splash                                | ✅ Full Build | P2 — Medium    | 2       |
 
 ### ❌ DEFERRED TO PHASE 2/3
 
-| # | Feature | Deferred To | Reason for Deferral |
-|---|---------|-------------|---------------------|
-| 1 | AI Chatbot (Hindi/English) | Phase 2 | Requires Gemini API — higher recurring cost |
-| 2 | iOS App (Apple App Store) | Phase 2 | Apple Developer Account + separate testing cycle |
-| 3 | Bhashini NLP Integration | Phase 2 | Depends on AI chatbot module |
-| 4 | Blood Donor Directory | Phase 3 | Community feature — not critical for MVP launch |
-| 5 | STQC Audit & Certification | Phase 3 | Government process — requires working app first |
-| 6 | NIC/MeghRaj Cloud Migration | Phase 3 | Government infrastructure — post-approval process |
-| 7 | Security Audit (VAPT) | Phase 3 | Formal third-party audit — Phase 3 budget |
-| 8 | Advanced DM Analytics Dashboard | Phase 3 | Advanced reporting with charts, exports, drill-down |
+| #   | Feature                              | Deferred To | Reason for Deferral                                       |
+|-----|--------------------------------------|-------------|-----------------------------------------------------------|
+| 1   | AI Chatbot (Hindi/English)           | Phase 2     | Requires AI API (Sarvam AI / Gemini) — recurring cost     |
+| 2   | iOS App (Apple App Store)            | Phase 2     | Apple Developer Account + separate testing cycle          |
+| 3   | Bhashini NLP + VoicERA Integration   | Phase 2     | FREE govt DPI — depends on AI chatbot module              |
+| 4   | Blood Donor Directory                | Phase 3     | Community feature — not critical for MVP launch           |
+| 5   | STQC Audit & Certification           | Phase 3     | Government process — requires working app first           |
+| 6   | NIC/MeghRaj Cloud Migration          | Phase 3     | Government infrastructure — post-approval process         |
+| 7   | Security Audit (VAPT)                | Phase 3     | Formal third-party audit — Phase 3 budget                 |
+| 8   | Advanced DM Analytics Dashboard      | Phase 3     | Advanced reporting with charts, exports, drill-down       |
 
 ---
 
@@ -203,44 +203,44 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### 5.1 Mobile Application (Android)
 
-| Component | Details |
-|-----------|---------|
-| **Framework** | Flutter 3.x (Dart) |
-| **Total Screens** | 27 screens across 13+ modules |
-| **Platform** | Android (APK + Google Play Store) |
-| **Languages** | Hindi + English (full bilingual) |
-| **Offline Mode** | Directory, Helplines, Schemes cached locally |
-| **Push Notifications** | Firebase Cloud Messaging (unlimited, free) |
-| **Maps** | Google Maps integration (free $200/mo credit) |
-| **Analytics** | Firebase Analytics + Crashlytics |
+| Component              | Details                                          |
+|------------------------|--------------------------------------------------|
+| **Framework**          | Flutter 3.x (Dart)                               |
+| **Total Screens**      | 27 screens across 13+ modules                    |
+| **Platform**           | Android (APK + Google Play Store)                |
+| **Languages**          | Hindi + English (full bilingual)                 |
+| **Offline Mode**       | Directory, Helplines, Schemes cached locally     |
+| **Push Notifications** | Firebase Cloud Messaging (unlimited, free)       |
+| **Maps**               | Google Maps integration (free $200/mo credit)    |
+| **Analytics**          | Firebase Analytics + Crashlytics                 |
 
 ### 5.2 Admin Panel (Web Dashboard)
 
-| Feature | Description | Who Uses It |
-|---------|-------------|-------------|
-| Notice Manager | Post/Edit/Delete notices + push notification toggle | DM, Officers |
-| Alert Manager | Send emergency alerts with priority levels (Red/Blue/Green) | DM, SP |
-| Directory Manager | Add/Edit/Remove offices, officers, contact details, bulk CSV import | IT Cell, Nodal Officers |
-| Scheme Manager | Manage eligibility criteria, required documents, apply links | Department Officers |
-| Document Uploader | Upload PDFs, images, office orders — categorized | DM, Officers |
-| User/Role Manager | Add/remove admin users, assign RBAC roles | Super Admin (IT/NIC) |
-| Analytics Dashboard | App downloads, active users, popular sections, charts | DM |
-| WordPress Sync | Auto-sync content from hathras.nic.in via REST API | IT Cell |
+| Feature             | Description                                                           | Who Uses It            |
+|---------------------|-----------------------------------------------------------------------|------------------------|
+| Notice Manager      | Post/Edit/Delete notices + push notification toggle                   | DM, Officers           |
+| Alert Manager       | Send emergency alerts with priority levels (Red/Blue/Green)           | DM, SP                 |
+| Directory Manager   | Add/Edit/Remove offices, officers, contact details, bulk CSV import   | IT Cell, Nodal Officers|
+| Scheme Manager      | Manage eligibility criteria, required documents, apply links          | Department Officers    |
+| Document Uploader   | Upload PDFs, images, office orders — categorized                      | DM, Officers           |
+| User/Role Manager   | Add/remove admin users, assign RBAC roles                             | Super Admin (IT/NIC)   |
+| Analytics Dashboard | App downloads, active users, popular sections, charts                 | DM                     |
+| WordPress Sync      | Auto-sync content from hathras.nic.in via REST API                    | IT Cell                |
 
 ### 5.3 Backend Infrastructure
 
-| Component | Technology | Phase 1 Cost |
-|-----------|-----------|--------------|
-| Database | Firebase Firestore (NoSQL, real-time) | ₹0 — Free tier |
-| Authentication | JWT + Firebase Auth | ₹0 — Free tier |
-| Push Notifications | Firebase Cloud Messaging (FCM) | ₹0 — Free unlimited |
-| File Storage | Firebase Storage (PDFs, images) | ₹0 — Free tier (5GB) |
-| API Server | Node.js + Express / Firebase Functions | ₹0 — Free tier |
-| Analytics | Firebase Analytics | ₹0 — Free unlimited |
-| Crash Reporting | Firebase Crashlytics | ₹0 — Free unlimited |
-| CDN | Cloudflare (DNS, SSL, caching) | ₹0 — Free tier |
-| CI/CD | GitHub Actions | ₹0 — Free tier |
-| **Total Infrastructure** | | **₹0/month** (up to 50K MAU) |
+| Component                | Technology                              | Phase 1 Cost                  |
+|--------------------------|-----------------------------------------|-------------------------------|
+| Database                 | Firebase Firestore (NoSQL, real-time)   | ₹0 — Free tier                |
+| Authentication           | JWT + Firebase Auth                     | ₹0 — Free tier                |
+| Push Notifications       | Firebase Cloud Messaging (FCM)          | ₹0 — Free unlimited           |
+| File Storage             | Firebase Storage (PDFs, images)         | ₹0 — Free tier (5GB)          |
+| API Server               | Node.js + Express / Firebase Functions  | ₹0 — Free tier                |
+| Analytics                | Firebase Analytics                      | ₹0 — Free unlimited           |
+| Crash Reporting          | Firebase Crashlytics                    | ₹0 — Free unlimited           |
+| CDN                      | Cloudflare (DNS, SSL, caching)          | ₹0 — Free tier                |
+| CI/CD                    | GitHub Actions                          | ₹0 — Free tier                |
+| **Total Infrastructure** |                                         | **₹0/month** (up to 50K MAU)  |
 
 ---
 
@@ -248,42 +248,42 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Module 1: Home Screen
 
-| Feature | Description |
-|---------|-------------|
-| Banner Slider | DM message, key visuals — Dauji Temple, Ghanta Ghar, Manglaytan |
-| Quick Action Grid | 8 icons: Alerts, Schemes, Directory, Complaint, Services, Tourism, Emergency, Apps Hub |
-| Live Feed | Latest 5 news/notifications (scrollable) |
-| District Stats | Area: 1,800.1 sq km · Population: 15,64,708 · Villages: 683 |
-| DM Profile Card | Photo, name, designation, social links |
+| Feature            | Description                                                                                       |
+|--------------------|---------------------------------------------------------------------------------------------------|
+| Banner Slider      | DM message, key visuals — Dauji Temple, Ghanta Ghar, Manglaytan                                  |
+| Quick Action Grid  | 8 icons: Alerts, Schemes, Directory, Complaint, Services, Tourism, Emergency, Apps Hub            |
+| Live Feed          | Latest 5 news/notifications (scrollable)                                                          |
+| District Stats     | Area: 1,800.1 sq km · Population: 15,64,708 · Villages: 683                                      |
+| DM Profile Card    | Photo, name, designation, social links                                                            |
 
 ### Module 2: Emergency SOS (HIGH IMPACT)
 
-| Helpline | Number | Type |
-|----------|--------|------|
-| UP Dial (Police) | 100 | 🔴 Emergency |
-| Ambulance | 108 | 🔴 Emergency |
-| Fire Service | 101 | 🔴 Emergency |
-| Women Helpline | 1090 | 🟡 Safety |
-| Women Ambulance | 102 | 🟡 Safety |
-| Child Helpline | 1098 | 🟡 Safety  |
-| CM Helpline | 1076 | 🔵 Government |
-| Tele MANAS (Mental Health) | 14416 / 1800-891-4416 | 🔵 Health |
-| Traffic Police | 103 | 🔵 General |
+| Helpline                      | Number               | Type            |
+|-------------------------------|----------------------|-----------------|
+| UP Dial (Police)              | 100                  | 🔴 Emergency    |
+| Ambulance                     | 108                  | 🔴 Emergency    |
+| Fire Service                  | 101                  | 🔴 Emergency    |
+| Women Helpline                | 1090                 | 🟡 Safety       |
+| Women Ambulance               | 102                  | 🟡 Safety       |
+| Child Helpline                | 1098                 | 🟡 Safety       |
+| CM Helpline                   | 1076                 | 🔵 Government   |
+| Tele MANAS (Mental Health)    | 14416 / 1800-891-4416| 🔵 Health       |
+| Traffic Police                | 103                  | 🔵 General      |
 
 > All helplines work **offline** — stored locally in Hive database.
 
 ### Module 3: District Directory (CRITICAL MODULE)
 
-| Directory Category | Entries | Features |
-|--------------------|---------|----------|
-| Government Offices (Collectorate, Tehsil, Blocks, Courts) | ~50 | 📞 Call + 🗺️ Maps |
-| Police Stations | 11 | 📞 Call + 🗺️ Maps + Jurisdiction |
-| Hospitals / CHC / PHC | 11 | 📞 Call + 🗺️ Maps |
-| Banks | 22 | 📞 Call + 🗺️ Maps |
-| Schools | 80 | 📞 Call + 🗺️ Maps |
-| Colleges / Universities | 5 | 📞 Call + 🗺️ Maps |
-| Other (Electricity, Post, Municipality, NGO) | 5 | 📞 Call + 🗺️ Maps |
-| Who's Who Officers | ~30 | Photo + Designation + 📞 Call + ✉️ Email |
+| Directory Category                                        | Entries | Features                                    |
+|-----------------------------------------------------------|---------|---------------------------------------------|
+| Government Offices (Collectorate, Tehsil, Blocks, Courts) | ~50     | 📞 Call + 🗺️ Maps                          |
+| Police Stations                                           | 11      | 📞 Call + 🗺️ Maps + Jurisdiction              |
+| Hospitals / CHC / PHC                                     | 11      | 📞 Call + 🗺️ Maps                          |
+| Banks                                                     | 22      | 📞 Call + 🗺️ Maps                          |
+| Schools                                                   | 80      | 📞 Call + 🗺️ Maps                          |
+| Colleges / Universities                                   | 5       | 📞 Call + 🗺️ Maps                          |
+| Other (Electricity, Post, Municipality, NGO)              | 5       | 📞 Call + 🗺️ Maps                          |
+| Who's Who Officers                                        | ~30     | Photo + Designation + 📞 Call + ✉️ Email    |
 
 > **Key Features**: Search by name/department/area, click-to-call, click-to-navigate (Google Maps), filter by category, **offline access** for all directory data.
 
@@ -381,13 +381,13 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### System-Level Features
 
-| Feature | Technology | Description |
-|---------|-----------|-------------|
-| Push Notifications | Firebase Cloud Messaging | Topic-based subscriptions, foreground/background handling |
-| Offline Caching | Hive (Local DB) | Directory, helplines, schemes cached — works without internet |
-| Bilingual System | flutter_localizations | Complete Hindi/English for all ~200 strings |
-| Accessibility | WCAG 2.1 AA | Font scaling, high contrast mode, screen reader (TalkBack) labels |
-| Analytics | Firebase Analytics | Event tracking — screen views, button clicks, popular sections |
+| Feature              | Technology                    | Description                                                       |
+|----------------------|-------------------------------|-------------------------------------------------------------------|
+| Push Notifications   | Firebase Cloud Messaging      | Topic-based subscriptions, foreground/background handling         |
+| Offline Caching      | Hive (Local DB)               | Directory, helplines, schemes cached — works without internet     |
+| Bilingual System     | flutter_localizations         | Complete Hindi/English for all ~200 strings                       |
+| Accessibility        | WCAG 2.1 AA                   | Font scaling, high contrast mode, screen reader (TalkBack) labels |
+| Analytics            | Firebase Analytics            | Event tracking — screen views, button clicks, popular sections    |
 
 ---
 
@@ -525,6 +525,8 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 > **Design Summary**: 14 screens covering 7 core modules — each shown in standard view and with AI Hub popup overlay (Phase 2 preview). Designs follow Material Design guidelines with official government color scheme matching hathras.nic.in.
 
+> **Note on AI Hub Screens**: Screens 2, 4, 6, 8, 10, 12, and 14 showcase the **Phase 2 AI Assistant** integration. These are included as a **future vision preview** only — Phase 1 delivers the 7 core screens without AI overlay. The AI module will leverage **India-origin AI** (Sarvam AI, BHASHINI) alongside global models (Gemini) for maximum data sovereignty and Hindi language performance.
+
 ---
 
 ## 8. TECHNOLOGY STACK — PHASE 1
@@ -554,24 +556,37 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Phase 1 Complete Tech Stack
 
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Mobile App** | Flutter 3.x (Dart) | Cross-platform app framework |
-| **State Management** | Riverpod / BLoC | Scalable, testable state |
-| **Local Database** | Hive | Offline caching — fast, lightweight |
-| **WebView** | flutter_inappwebview | In-app browser for NIC pages |
-| **Maps** | Google Maps Flutter Plugin | Directory locations, tourism maps |
-| **Push Notifications** | Firebase Cloud Messaging (FCM) | Real-time alerts — free unlimited |
-| **Analytics** | Firebase Analytics | Usage tracking — free unlimited |
-| **Crash Reporting** | Firebase Crashlytics | Error monitoring — free unlimited |
-| **Localization** | flutter_localizations | Hindi/English toggle |
-| **Backend API** | Node.js + Express / Firebase Functions | RESTful API server |
-| **Database** | Firebase Firestore | NoSQL, real-time sync |
-| **File Storage** | Firebase Storage | PDFs, images, documents |
-| **Admin Panel** | React.js | Responsive web dashboard |
-| **Authentication** | JWT + Firebase Auth | Secure admin access |
-| **CDN** | Cloudflare | DNS, SSL, caching — free |
-| **CI/CD** | GitHub Actions | Automated builds — free |
+| Layer                  | Technology                                | Purpose                                  |
+|------------------------|-------------------------------------------|------------------------------------------|
+| **Mobile App**         | Flutter 3.x (Dart)                        | Cross-platform app framework             |
+| **State Management**   | Riverpod / BLoC                           | Scalable, testable state                 |
+| **Local Database**     | Hive                                      | Offline caching — fast, lightweight      |
+| **WebView**            | flutter_inappwebview                      | In-app browser for NIC pages             |
+| **Maps**               | Google Maps Flutter Plugin                | Directory locations, tourism maps        |
+| **Push Notifications** | Firebase Cloud Messaging (FCM)            | Real-time alerts — free unlimited        |
+| **Analytics**          | Firebase Analytics                        | Usage tracking — free unlimited          |
+| **Crash Reporting**    | Firebase Crashlytics                      | Error monitoring — free unlimited        |
+| **Localization**       | flutter_localizations                     | Hindi/English toggle                     |
+| **Backend API**        | Node.js + Express / Firebase Functions    | RESTful API server                       |
+| **Database**           | Firebase Firestore                        | NoSQL, real-time sync                    |
+| **File Storage**       | Firebase Storage                          | PDFs, images, documents                  |
+| **Admin Panel**        | React.js                                  | Responsive web dashboard                 |
+| **Authentication**     | JWT + Firebase Auth                       | Secure admin access                      |
+| **CDN**                | Cloudflare                                | DNS, SSL, caching — free                 |
+| **CI/CD**              | GitHub Actions                            | Automated builds — free                  |
+
+### Phase 2 AI Strategy — Indian AI & Data Sovereignty
+
+> Phase 2 AI will prioritize **India-origin AI models** aligned with the **IndiaAI Mission** (₹10,370 Cr government initiative), ensuring data sovereignty and superior Hindi language performance.
+
+| AI Component           | Technology                                       | Role                                      | Cost                                          |
+|------------------------|--------------------------------------------------|-------------------------------------------|-----------------------------------------------|
+| **Translation & Voice**| BHASHINI (MeitY) + VoicERA                       | ASR, TTS, Hindi Translation               | **₹0** (Govt Digital Public Infrastructure)    |
+| **Primary LLM**        | Sarvam AI (Indian, IndiaAI Mission partner)      | Chatbot reasoning, RAG on district data   | ₹3,000 – 8,000/mo                             |
+| **Fallback LLM**       | Google Gemini API                                | Complex queries, global knowledge         | ₹2,000 – 5,000/mo                             |
+| **Knowledge Base**     | Firestore + Vector DB (RAG)                      | District schemes, directory, services     | ₹0 (free tier)                                 |
+
+> **Other Indian AI alternatives being evaluated**: BharatGPT/Hanooman (IIT Bombay + Jio), BharatGen Param2 (governance-focused), CoRover Mini (for low-end devices). Final selection based on benchmark performance during Phase 2.
 
 ---
 
@@ -630,12 +645,12 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Data Flow
 
-| Source | Flow | Destination | Result |
-|--------|------|-------------|--------|
-| hathras.nic.in | WP REST API → Sync | Firestore | App fetches & displays content |
-| Admin Panel | Direct POST | Firestore + FCM | Push notification to all citizens |
-| External Portals | Deep Links | In-App WebView | Redirect to government portals |
-| Offline Data | Hive Cache | Local Display | Works without internet |
+| Source           | Flow                | Destination       | Result                                |
+|------------------|---------------------|-------------------|---------------------------------------|
+| hathras.nic.in   | WP REST API → Sync  | Firestore         | App fetches & displays content        |
+| Admin Panel      | Direct POST         | Firestore + FCM   | Push notification to all citizens     |
+| External Portals | Deep Links          | In-App WebView    | Redirect to government portals        |
+| Offline Data     | Hive Cache          | Local Display     | Works without internet                |
 
 ---
 
@@ -643,28 +658,28 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Role-Based Access Control (RBAC)
 
-| # | Role | Access Level | Allowed Actions |
-|---|------|-------------|-----------------|
-| 1 | **Super Admin (IT/NIC)** | Full | All features + user management + system config |
-| 2 | **DM** | High | Post notices, send alerts, approve content, view analytics |
-| 3 | **SP** | Medium-High | Post law & order alerts, police directory updates |
-| 4 | **Department Officer** | Medium | Post department-specific news, update own directory |
-| 5 | **Nodal Officer** | Low-Medium | Update schemes, post department notices |
+| #   | Role                          | Access Level | Allowed Actions                                                  |
+|-----|-------------------------------|--------------|------------------------------------------------------------------|
+| 1   | **Super Admin (IT/NIC)**      | Full         | All features + user management + system config                   |
+| 2   | **DM**                        | High         | Post notices, send alerts, approve content, view analytics       |
+| 3   | **SP**                        | Medium-High  | Post law & order alerts, police directory updates                |
+| 4   | **Department Officer**        | Medium       | Post department-specific news, update own directory              |
+| 5   | **Nodal Officer**             | Low-Medium   | Update schemes, post department notices                          |
 
 ### Admin Panel Pages (Phase 1)
 
-| # | Page | Key Features | Priority |
-|---|------|-------------|----------|
-| 1 | Login / Auth | JWT authentication, role-based redirect | P0 |
-| 2 | Dashboard | App stats, user count, notification count, charts | P1 |
-| 3 | Notice Manager | CRUD notices + push notification toggle + media upload | P0 |
-| 4 | Alert Manager | Emergency/Info/Update types + instant push to all | P0 |
-| 5 | Directory Manager | Office/Officer CRUD + location picker + bulk CSV import | P0 |
-| 6 | Scheme Manager | Eligibility, documents, portal links CRUD | P1 |
-| 7 | Document Uploader | PDF/image upload, categorize, manage files | P1 |
-| 8 | User/Role Manager | Add/remove admins, assign RBAC roles | P0 |
-| 9 | WordPress Sync | Connect hathras.nic.in, manual sync trigger, status | P2 |
-| 10 | Basic Analytics | Downloads, active users, popular sections, trends | P2 |
+| #    | Page              | Key Features                                                   | Priority |
+|------|-------------------|----------------------------------------------------------------|----------|
+| 1    | Login / Auth      | JWT authentication, role-based redirect                        | P0       |
+| 2    | Dashboard         | App stats, user count, notification count, charts              | P1       |
+| 3    | Notice Manager    | CRUD notices + push notification toggle + media upload         | P0       |
+| 4    | Alert Manager     | Emergency/Info/Update types + instant push to all              | P0       |
+| 5    | Directory Manager | Office/Officer CRUD + location picker + bulk CSV import        | P0       |
+| 6    | Scheme Manager    | Eligibility, documents, portal links CRUD                      | P1       |
+| 7    | Document Uploader | PDF/image upload, categorize, manage files                     | P1       |
+| 8    | User/Role Manager | Add/remove admins, assign RBAC roles                           | P0       |
+| 9    | WordPress Sync    | Connect hathras.nic.in, manual sync trigger, status            | P2       |
+| 10   | Basic Analytics   | Downloads, active users, popular sections, trends              | P2       |
 
 ---
 
@@ -672,27 +687,27 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### Legal Compliance
 
-| # | Requirement | Phase 1 Implementation | Status |
-|---|-------------|----------------------|--------|
-| 1 | **IT Act 2000** | Data encryption, secure authentication | ✅ Implemented |
-| 2 | **DPDP Act 2023** (India's Data Protection) | Minimal data collection, no PII storage, consent flows | ✅ Implemented |
-| 3 | **GIGW 2.0** (Govt Website Guidelines) | Accessibility, bilingual, standard UI, official branding | ✅ Implemented |
-| 4 | **WCAG 2.1 AA** | Font scaling, high contrast, screen reader (TalkBack) support | ✅ Implemented |
-| 5 | **STQC** | Architecture designed for audit readiness | 🟡 Audit in Phase 3 |
+| #   | Requirement                                 | Phase 1 Implementation                                         | Status            |
+|-----|---------------------------------------------|----------------------------------------------------------------|-------------------|
+| 1   | **IT Act 2000**                             | Data encryption, secure authentication                         | ✅ Implemented    |
+| 2   | **DPDP Act 2023** (India's Data Protection) | Minimal data collection, no PII storage, consent flows         | ✅ Implemented    |
+| 3   | **GIGW 2.0** (Govt Website Guidelines)      | Accessibility, bilingual, standard UI, official branding       | ✅ Implemented    |
+| 4   | **WCAG 2.1 AA**                             | Font scaling, high contrast, screen reader (TalkBack) support  | ✅ Implemented    |
+| 5   | **STQC**                                    | Architecture designed for audit readiness                      | 🟡 Audit in Phase 3|
 
 ### Security Measures
 
-| # | Measure | Technology | Purpose |
-|---|---------|-----------|---------|
-| 1 | HTTPS/TLS 1.3 | SSL encryption | All API communication encrypted |
-| 2 | JWT Authentication | JSON Web Tokens | Secure admin access with token expiry |
-| 3 | Firebase Security Rules | Firestore rules | Database-level access control |
-| 4 | APK Signing | Android keystore | Tamper-proof application |
-| 5 | No PII Storage | By design | App does NOT store Aadhaar/personal data |
-| 6 | OWASP Mobile Top 10 | Best practices | Industry-standard mobile security |
-| 7 | ProGuard/R8 | Code obfuscation | Prevent reverse engineering |
-| 8 | Input Validation | Server + client | All forms sanitized against injection |
-| 9 | Certificate Pinning | SSL pinning | Prevent man-in-the-middle attacks |
+| #   | Measure                  | Technology           | Purpose                                        |
+|-----|--------------------------|----------------------|------------------------------------------------|
+| 1   | HTTPS/TLS 1.3            | SSL encryption       | All API communication encrypted                |
+| 2   | JWT Authentication       | JSON Web Tokens      | Secure admin access with token expiry          |
+| 3   | Firebase Security Rules  | Firestore rules      | Database-level access control                  |
+| 4   | APK Signing              | Android keystore     | Tamper-proof application                       |
+| 5   | No PII Storage           | By design            | App does NOT store Aadhaar/personal data       |
+| 6   | OWASP Mobile Top 10      | Best practices       | Industry-standard mobile security              |
+| 7   | ProGuard/R8              | Code obfuscation     | Prevent reverse engineering                    |
+| 8   | Input Validation         | Server + client      | All forms sanitized against injection          |
+| 9   | Certificate Pinning      | SSL pinning          | Prevent man-in-the-middle attacks              |
 
 ---
 
@@ -816,34 +831,34 @@ PHASE 3 (3 months later) ₹4.9–8.1L   ——►  Full Compliance + Audit + Sc
 
 ### 12.8 💰 PHASE 1 TOTAL BUDGET SUMMARY
 
-| # | Category | Amount (₹) |
-|---|----------|-----------|
-| 1 | Team Salaries (Shivam + Freelance support) | 3,24,000 |
-| 2 | Module-wise App Development (27 screens, 565 hrs) | 2,82,500 |
-| 3 | Admin Panel Development (10 components, 240 hrs) | 1,20,000 |
-| 4 | Backend / API Development (8 components, 145 hrs) | 72,500 |
-| 5 | UI/UX Design (Figma mockups, prototype, assets) | 55,000 |
-| 6 | Data Entry & Content Creation | 24,800 |
-| 7 | Testing & Quality Assurance | 50,000 |
-| 8 | Deployment & Launch | 25,600 |
-| 9 | Infrastructure (Year 1 — Firebase free tier) | 1,000 – 3,000 |
-| 10 | Licenses (Play Store) | 2,100 |
-| 11 | Miscellaneous & Operations | 59,000 – 84,000 |
-| | | |
-| | **PHASE 1 TOTAL (excl. GST)** | **₹4,50,000 – ₹5,50,000** |
-| | **GST (18%)** | **₹81,000 – ₹99,000** |
-| | **PHASE 1 TOTAL (incl. GST)** | **₹5,31,000 – ₹6,49,000** |
+| #    | Category                                           | Amount (₹)                        |
+|------|----------------------------------------------------|---------------------------------|
+| 1    | Team Salaries (Shivam + Freelance support)         | 3,24,000                        |
+| 2    | Module-wise App Development (27 screens, 565 hrs)  | 2,82,500                        |
+| 3    | Admin Panel Development (10 components, 240 hrs)   | 1,20,000                        |
+| 4    | Backend / API Development (8 components, 145 hrs)  | 72,500                          |
+| 5    | UI/UX Design (Figma mockups, prototype, assets)    | 55,000                          |
+| 6    | Data Entry & Content Creation                      | 24,800                          |
+| 7    | Testing & Quality Assurance                        | 50,000                          |
+| 8    | Deployment & Launch                                | 25,600                          |
+| 9    | Infrastructure (Year 1 — Firebase free tier)       | 1,000 – 3,000                   |
+| 10   | Licenses (Play Store)                              | 2,100                           |
+| 11   | Miscellaneous & Operations                         | 59,000 – 84,000                 |
+|      |                                                    |                                 |
+|      | **PHASE 1 TOTAL (excl. GST)**                      | **₹4,50,000 – ₹5,50,000**      |
+|      | **GST (18%)**                                      | **₹81,000 – ₹99,000**           |
+|      | **PHASE 1 TOTAL (incl. GST)**                      | **₹5,31,000 – ₹6,49,000**      |
 
 > **💡 Recommended Quote for Government Proposal**: **₹5,50,000** (excl. GST) — includes buffer for scope adjustments and **1 year post-launch maintenance**.
 
 ### 12.9 Cost Comparison — Our Quote vs Industry Rates
 
-| Parameter | Industry Rate (₹) | Our Phase 1 Quote (₹) | Savings |
-|-----------|-------------------|----------------------|---------|
-| Flutter App (27 screens, govt grade) | 15,00,000 – 25,00,000 | 2,82,500 | 80%+ |
-| Admin Panel (React, RBAC, CMS) | 5,00,000 – 8,00,000 | 1,20,000 | 75%+ |
-| Backend API + Infrastructure | 3,00,000 – 5,00,000 | 72,500 | 85%+ |
-| Full Phase 1 (Industry vendor) | 25,00,000 – 35,00,000 | 5,50,000 | **78%** |
+| Parameter                                | Industry Rate (₹)         | Our Phase 1 Quote (₹)  | Savings  |
+|------------------------------------------|--------------------------|------------------------|----------|
+| Flutter App (27 screens, govt grade)     | 15,00,000 – 25,00,000    | 2,82,500               | 80%+     |
+| Admin Panel (React, RBAC, CMS)           | 5,00,000 – 8,00,000      | 1,20,000               | 75%+     |
+| Backend API + Infrastructure             | 3,00,000 – 5,00,000      | 72,500                 | 85%+     |
+| Full Phase 1 (Industry vendor)           | 25,00,000 – 35,00,000    | 5,50,000               | **78%**  |
 
 > **Why so cost-effective**: Shivam is sole full-stack developer — no vendor margins, no agency overheads. Firebase free tier eliminates infrastructure costs. Direct relationship through Parth means zero sales costs. **Quality is enterprise-grade — only cost is optimized, not the product.**
 
@@ -864,39 +879,39 @@ WEEK 16     ║███║    APK Release + Distribution + Training
 
 ### Week-by-Week Deliverables
 
-| Week | Deliverable | DM Review Point |
-|------|-------------|-----------------|
-| W1 | Project kickoff, requirement sign-off | ✅ Requirements approval |
-| W2 | Wireframes, information architecture | — |
-| W3 | High-fidelity Figma designs (all 27 screens) | — |
-| W4 | Design review & approval | ✅ **Design approval from DM office** |
-| W5 | Firebase setup, database schema, security rules | — |
-| W6 | Working admin panel (login, dashboard, basic CRUD) | ✅ Admin panel demo |
-| W7 | Home Screen + Emergency SOS + Helplines | — |
-| W8 | Directory module + Click-to-call + Google Maps | ✅ **Alpha: Home + Directory + Emergency** |
-| W9 | Schemes Navigator + Citizen Services | — |
-| W10 | News & Alerts + Push Notifications + Complaints | ✅ **Beta: All core modules** |
-| W11 | Tourism + Documents + Government Apps Hub | — |
-| W12 | All data populated, WebView pages working, offline cache | — |
-| W13 | Full QA testing on 10+ Android devices (Samsung, Xiaomi, etc.) | — |
-| W14 | Bug fixes, performance optimization, regression testing | ✅ **Tested APK for review** |
-| W15 | Government review, DM office feedback, UAT (2 sessions) | ✅ **DM office UAT** |
-| W16 | **🚀 LAUNCH** — APK release, Play Store listing, officer training | ✅ **Launch + Training** |
+| Week  | Deliverable                                                     | DM Review Point                         |
+|-------|-----------------------------------------------------------------|-----------------------------------------|
+| W1    | Project kickoff, requirement sign-off                           | ✅ Requirements approval                 |
+| W2    | Wireframes, information architecture                            | —                                       |
+| W3    | High-fidelity Figma designs (all 27 screens)                    | —                                       |
+| W4    | Design review & approval                                       | ✅ **Design approval from DM office**    |
+| W5    | Firebase setup, database schema, security rules                 | —                                       |
+| W6    | Working admin panel (login, dashboard, basic CRUD)              | ✅ Admin panel demo                      |
+| W7    | Home Screen + Emergency SOS + Helplines                         | —                                       |
+| W8    | Directory module + Click-to-call + Google Maps                  | ✅ **Alpha: Home + Directory + Emergency**|
+| W9    | Schemes Navigator + Citizen Services                            | —                                       |
+| W10   | News & Alerts + Push Notifications + Complaints                 | ✅ **Beta: All core modules**             |
+| W11   | Tourism + Documents + Government Apps Hub                       | —                                       |
+| W12   | All data populated, WebView pages working, offline cache        | —                                       |
+| W13   | Full QA testing on 10+ Android devices (Samsung, Xiaomi, etc.)  | —                                       |
+| W14   | Bug fixes, performance optimization, regression testing         | ✅ **Tested APK for review**              |
+| W15   | Government review, DM office feedback, UAT (2 sessions)         | ✅ **DM office UAT**                      |
+| W16   | **🚀 LAUNCH** — APK release, Play Store listing, officer training | ✅ **Launch + Training**                  |
 
 ---
 
 ## 14. PAYMENT MILESTONE SCHEDULE
 
-| # | Milestone | % | Amount (₹)* | Trigger |
-|---|-----------|---|------------|---------|
-| M1 | Project Kickoff + Requirements Sign-off | 20% | 1,10,000 | Agreement signed, requirements approved |
-| M2 | UI/UX Design Approval | 15% | 82,500 | Figma designs approved by DM office |
-| M3 | Backend + Admin Panel Demo | 15% | 82,500 | Working admin panel demonstrated |
-| M4 | App Alpha (Home, Directory, Emergency, Helplines) | 20% | 1,10,000 | Alpha build demo to DM office |
-| M5 | App Beta (All modules complete) | 15% | 82,500 | Full app ready for testing |
-| M6 | UAT + Launch + Training | 10% | 55,000 | APK live, admin training done |
-| M7 | 30-Day Post-Launch Stable Operation | 5% | 27,500 | 30 days without critical issues |
-| | **TOTAL** | **100%** | **₹5,50,000** | |
+| #    | Milestone                                          | %     | Amount (₹)* | Trigger                                          |
+|------|----------------------------------------------------|-------|------------|--------------------------------------------------|
+| M1   | Project Kickoff + Requirements Sign-off            | 20%   | 1,10,000   | Agreement signed, requirements approved          |
+| M2   | UI/UX Design Approval                              | 15%   | 82,500     | Figma designs approved by DM office              |
+| M3   | Backend + Admin Panel Demo                         | 15%   | 82,500     | Working admin panel demonstrated                 |
+| M4   | App Alpha (Home, Directory, Emergency, Helplines)  | 20%   | 1,10,000   | Alpha build demo to DM office                    |
+| M5   | App Beta (All modules complete)                    | 15%   | 82,500     | Full app ready for testing                       |
+| M6   | UAT + Launch + Training                            | 10%   | 55,000     | APK live, admin training done                    |
+| M7   | 30-Day Post-Launch Stable Operation                | 5%    | 27,500     | 30 days without critical issues                  |
+|      | **TOTAL**                                          | **100%** | **₹5,50,000** |                                             |
 
 > *Based on ₹5,50,000 recommended quotation. Amounts adjust proportionally for final agreed amount.
 
@@ -904,18 +919,18 @@ WEEK 16     ║███║    APK Release + Distribution + Training
 
 ## 15. RISK ASSESSMENT & MITIGATION
 
-| # | Risk | Probability | Impact | Mitigation Strategy |
-|---|------|------------|--------|-------------------|
-| 1 | Government approval delays | High | High | Budget buffer weeks; DM buy-in via Parth from Day 1 |
-| 2 | Scope creep (new feature requests) | High | Medium | Strict Phase 1 scope freeze; all additions go to Phase 2 |
-| 3 | Data accuracy issues | Medium | High | Cross-verify with NIC website; admin panel for instant corrections |
-| 4 | Low citizen adoption | Medium | High | DM endorsement + WhatsApp distribution + QR codes at all offices |
-| 5 | Content update dependency | Medium | Medium | Simple admin panel UI; officer training; user manual provided |
-| 6 | hathras.nic.in API changes | Low | Medium | WebView fallback; manual sync option in admin panel |
-| 7 | Security concerns | Low | Critical | OWASP practices, encryption, no PII, Firebase security rules |
-| 8 | Developer bandwidth | Low | Medium | Shivam (sole developer) + clear 16-week scope + freelance backup |
-| 9 | Political / admin change | Medium | Medium | App is apolitical, district-owned; not tied to any individual |
-| 10 | Firebase cost spike | Low | Low | Free tier supports 50K MAU; Phase 1 won't exceed this |
+| #    | Risk                             | Probability | Impact   | Mitigation Strategy                                                   |
+|------|----------------------------------|-------------|----------|-----------------------------------------------------------------------|
+| 1    | Government approval delays       | High        | High     | Budget buffer weeks; DM buy-in via Parth from Day 1                   |
+| 2    | Scope creep (new feature requests)| High       | Medium   | Strict Phase 1 scope freeze; all additions go to Phase 2              |
+| 3    | Data accuracy issues             | Medium      | High     | Cross-verify with NIC website; admin panel for instant corrections    |
+| 4    | Low citizen adoption             | Medium      | High     | DM endorsement + WhatsApp distribution + QR codes at all offices      |
+| 5    | Content update dependency        | Medium      | Medium   | Simple admin panel UI; officer training; user manual provided         |
+| 6    | hathras.nic.in API changes       | Low         | Medium   | WebView fallback; manual sync option in admin panel                   |
+| 7    | Security concerns                | Low         | Critical | OWASP practices, encryption, no PII, Firebase security rules         |
+| 8    | Developer bandwidth              | Low         | Medium   | Shivam (sole developer) + clear 16-week scope + freelance backup     |
+| 9    | Political / admin change         | Medium      | Medium   | App is apolitical, district-owned; not tied to any individual        |
+| 10   | Firebase cost spike              | Low         | Low      | Free tier supports 50K MAU; Phase 1 won't exceed this                |
 
 ---
 
@@ -923,18 +938,18 @@ WEEK 16     ║███║    APK Release + Distribution + Training
 
 ### 6-Month Post-Launch Targets
 
-| # | KPI | Target (6 Months) | Target (1 Year) | Measurement Tool |
-|---|-----|-------------------|-----------------|-----------------|
-| 1 | App Downloads | 10,000 | 50,000 | Play Store + APK tracking |
-| 2 | Monthly Active Users | 3,000 | 20,000 | Firebase Analytics |
-| 3 | Push Notification Open Rate | > 30% | > 40% | FCM analytics |
-| 4 | Helpline Calls via App | 500/month | 2,000/month | In-app event tracking |
-| 5 | Scheme Enquiries | 200/month | 1,000/month | Click tracking |
-| 6 | Directory Searches | 1,000/month | 5,000/month | Search analytics |
-| 7 | User Rating (Play Store) | > 3.5 ⭐ | > 4.0 ⭐ | Play Store Console |
-| 8 | Crash Rate | < 2% | < 1% | Firebase Crashlytics |
-| 9 | Admin Panel Activity | 3+ officers daily | 5+ officers daily | Backend logs |
-| 10 | Content Updates via Admin | 10+/month | 30+/month | Firestore records |
+| #    | KPI                            | Target (6 Months) | Target (1 Year) | Measurement Tool            |
+|------|--------------------------------|-------------------|-----------------|-----------------------------|
+| 1    | App Downloads                  | 10,000            | 50,000          | Play Store + APK tracking   |
+| 2    | Monthly Active Users           | 3,000             | 20,000          | Firebase Analytics          |
+| 3    | Push Notification Open Rate    | > 30%             | > 40%           | FCM analytics               |
+| 4    | Helpline Calls via App         | 500/month         | 2,000/month     | In-app event tracking       |
+| 5    | Scheme Enquiries               | 200/month         | 1,000/month     | Click tracking              |
+| 6    | Directory Searches             | 1,000/month       | 5,000/month     | Search analytics            |
+| 7    | User Rating (Play Store)       | > 3.5 ⭐          | > 4.0 ⭐        | Play Store Console          |
+| 8    | Crash Rate                     | < 2%              | < 1%            | Firebase Crashlytics        |
+| 9    | Admin Panel Activity           | 3+ officers daily | 5+ officers daily | Backend logs              |
+| 10   | Content Updates via Admin      | 10+/month         | 30+/month       | Firestore records           |
 
 ### Impact Measurement
 - **Monthly reports** to DM office — downloads, engagement, popular sections
@@ -947,12 +962,12 @@ WEEK 16     ║███║    APK Release + Distribution + Training
 
 ### Phased Expansion Roadmap
 
-| Phase | Duration | Budget (₹) | Key Deliverables |
-|-------|----------|-----------|------------------|
-| **Phase 1 — MVP** ✅ | 4 months | 4,50,000 – 5,50,000 | Android app + Admin panel + Backend |
-| **Phase 2 — AI + iOS** | 3 months | 4,38,500 – 4,93,500 | AI Chatbot (Gemini), iOS app, Bhashini NLP, Advanced push |
-| **Phase 3 — Audit + Scale** | 3 months | 4,90,000 – 8,15,000 | STQC Audit, NIC Cloud migration, VAPT, Blood Donor module |
-| **Future** | Ongoing | TBD | Replicate to Aligarh, Mathura, Agra → "Hello UP" for all 75 districts |
+| Phase                     | Duration   | Budget (₹)                | Key Deliverables                                                              |
+|---------------------------|------------|--------------------------|-------------------------------------------------------------------------------|
+| **Phase 1 — MVP** ✅     | 4 months   | 4,50,000 – 5,50,000      | Android app + Admin panel + Backend                                           |
+| **Phase 2 — AI + iOS**   | 3 months   | 4,38,500 – 4,93,500      | AI Chatbot (Sarvam AI + Gemini), iOS app, BHASHINI Voice AI, Advanced push    |
+| **Phase 3 — Audit + Scale** | 3 months | 4,90,000 – 8,15,000     | STQC Audit, NIC Cloud migration, VAPT, Blood Donor module                    |
+| **Future**                | Ongoing    | TBD                      | Replicate to Aligarh, Mathura, Agra → "Hello UP" for all 75 districts        |
 
 ### Post Phase 1 Decision Flow
 
@@ -975,13 +990,13 @@ FUTURE: One District → All UP → Template for India
 
 ### 3-Year Total Cost of Ownership (TCO)
 
-| Year | Development (₹) | AMC (₹) | Infrastructure (₹) | Total (₹) |
-|------|-----------------|---------|--------------------|-----------:|
-| Year 1 | 13,78,500 – 18,58,500 | Included | Included | 13,78,500 – 18,58,500 |
-| Year 2 | — | 1,80,000 – 3,00,000 | 1,00,000 – 2,50,000 | 2,80,000 – 5,50,000 |
-| Year 3 | — | 2,00,000 – 3,50,000 | 1,00,000 – 2,50,000 | 3,00,000 – 6,00,000 |
-| **3-Year TCO** | | | | **₹19,58,500 – ₹30,08,500** |
-| **3-Year TCO + GST** | | | | **₹23,11,030 – ₹35,50,030** |
+| Year           | Development (₹)              | AMC (₹)                | Infrastructure (₹)       | Total (₹)                     |
+|----------------|------------------------------|------------------------|--------------------------|-------------------------------|
+| Year 1         | 13,78,500 – 18,58,500        | Included               | Included                 | 13,78,500 – 18,58,500         |
+| Year 2         | —                            | 1,80,000 – 3,00,000    | 1,00,000 – 2,50,000      | 2,80,000 – 5,50,000           |
+| Year 3         | —                            | 2,00,000 – 3,50,000    | 1,00,000 – 2,50,000      | 3,00,000 – 6,00,000           |
+| **3-Year TCO** |                              |                        |                          | **₹19,58,500 – ₹30,08,500**    |
+| **3-Year TCO + GST** |                         |                        |                          | **₹23,11,030 – ₹35,50,030**    |
 
 > **For DM**: "3-year total cost including everything = **₹23–35 Lakhs** — serving 15.64 lakh citizens at **₹1.50 – ₹2.25 per citizen over 3 years**."
 
@@ -991,29 +1006,29 @@ FUTURE: One District → All UP → Template for India
 
 ### Phase 1 Investment vs Impact
 
-| Metric | Value |
-|--------|-------|
-| **Total Phase 1 Investment** | ₹5,50,000 (excl. GST) |
-| **Citizens Served** | 15,64,708 |
-| **Cost Per Citizen** | < ₹0.37 (less than the price of a matchbox) |
-| **Time Saved Per Service Query** | ~2 hours per citizen |
-| **Annual Citizen Hours Saved** (est. 50K queries/year) | 1,00,000 hours |
-| **Emergency Alert Reach** | Real-time to all app users |
-| **Scheme Reach Increase** | 30–40% more eligible citizens informed |
-| **Infrastructure Cost (Year 1)** | Near Zero (Firebase free tier) |
-| **Ongoing Maintenance (Year 1)** | Included in Phase 1 cost |
+| Metric                                           | Value                                               |
+|--------------------------------------------------|-----------------------------------------------------|
+| **Total Phase 1 Investment**                     | ₹5,50,000 (excl. GST)                              |
+| **Citizens Served**                              | 15,64,708                                           |
+| **Cost Per Citizen**                             | < ₹0.37 (less than the price of a matchbox)         |
+| **Time Saved Per Service Query**                 | ~2 hours per citizen                                |
+| **Annual Citizen Hours Saved** (est. 50K queries)| 1,00,000 hours                                      |
+| **Emergency Alert Reach**                        | Real-time to all app users                          |
+| **Scheme Reach Increase**                        | 30–40% more eligible citizens informed               |
+| **Infrastructure Cost (Year 1)**                 | Near Zero (Firebase free tier)                      |
+| **Ongoing Maintenance (Year 1)**                 | Included in Phase 1 cost                            |
 
 ### Qualitative Benefits
 
-| # | Benefit | Impact |
-|---|---------|--------|
-| 1 | **Direct communication channel** | DM office to citizens — bypass social media misinformation |
-| 2 | **Emergency preparedness** | Instant alerts during floods, heatwaves, law & order situations |
-| 3 | **Citizen transparency** | All schemes, services, officers publicly accessible on phone |
-| 4 | **Digital India alignment** | Demonstrates district's commitment to e-governance |
-| 5 | **Scalable model** | Success = flagship project replicable across UP |
-| 6 | **Media-worthy initiative** | Positive coverage for progressive governance |
-| 7 | **Zero recurring cost (Year 1)** | Firebase free tier + maintenance included in project |
+| #   | Benefit                            | Impact                                                                 |
+|-----|------------------------------------|-----------------------------------------------------------------|
+| 1   | **Direct communication channel**   | DM office to citizens — bypass social media misinformation      |
+| 2   | **Emergency preparedness**         | Instant alerts during floods, heatwaves, law & order situations |
+| 3   | **Citizen transparency**           | All schemes, services, officers publicly accessible on phone    |
+| 4   | **Digital India alignment**        | Demonstrates district's commitment to e-governance              |
+| 5   | **Scalable model**                 | Success = flagship project replicable across UP                 |
+| 6   | **Media-worthy initiative**        | Positive coverage for progressive governance                    |
+| 7   | **Zero recurring cost (Year 1)**   | Firebase free tier + maintenance included in project            |
 
 ---
 
@@ -1021,30 +1036,30 @@ FUTURE: One District → All UP → Template for India
 
 ### 10 Reasons to Approve Phase 1
 
-| # | Reason | Details |
-|---|--------|---------|
-| 1 | **Minimal Investment** | ₹5.5L vs industry rate of ₹25-35L — 78% cheaper |
-| 2 | **Quick Delivery** | Working app in 4 months, not years |
-| 3 | **Proven Technology** | Flutter used by multiple Indian government apps (mPassport Seva) |
-| 4 | **Zero Infrastructure Cost** | Firebase free tier — no hosting bills for Year 1 |
-| 5 | **Single Point Accountability** | Shivam Gupta handles everything — no vendor blame game |
-| 6 | **Direct Channel to 15.64L Citizens** | Push notifications reach every app user instantly |
-| 7 | **Digital India Compliance** | Bilingual, accessible, GIGW 2.0 ready from Day 1 |
-| 8 | **No Risk** | If Phase 1 fails, investment is minimal. If it works, scale with Phase 2 |
-| 9 | **Already Designed** | 14 UI screens designed and ready for review (shown in this document) |
-| 10 | **Scalable Vision** | Hathras as pilot → replicate across 75 districts of UP |
+| #    | Reason                                  | Details                                                            |
+|------|----------------------------------------|--------------------------------------------------------------------|
+| 1    | **Minimal Investment**                  | ₹5.5L vs industry rate of ₹25-35L — 78% cheaper                    |
+| 2    | **Quick Delivery**                      | Working app in 4 months, not years                                 |
+| 3    | **Proven Technology**                   | Flutter used by multiple Indian government apps (mPassport Seva)   |
+| 4    | **Zero Infrastructure Cost**            | Firebase free tier — no hosting bills for Year 1                   |
+| 5    | **Single Point Accountability**         | Shivam Gupta handles everything — no vendor blame game             |
+| 6    | **Direct Channel to 15.64L Citizens**   | Push notifications reach every app user instantly                  |
+| 7    | **Digital India Compliance**            | Bilingual, accessible, GIGW 2.0 ready from Day 1                  |
+| 8    | **No Risk**                             | If Phase 1 fails, investment is minimal. If it works, scale up     |
+| 9    | **Already Designed**                    | 14 UI screens designed and ready for review (in this document)     |
+| 10   | **Scalable Vision**                     | Hathras as pilot → replicate across 75 districts of UP             |
 
 ### What Sets This Proposal Apart
 
-| Differentiator | Description |
-|----------------|-------------|
-| Professional Documentation | Enterprise-grade planning — every detail covered |
-| Lean Execution | Minimal team, maximum output — no overheads |
-| Government-Aware | Understands approval processes, compliance, audit readiness |
-| Integration-First | Doesn't duplicate existing systems — enhances them |
-| Citizen-Centric | Every feature solves a real problem faced by 15.64 lakh citizens |
-| Budget-Transparent | Every rupee accounted for — no hidden costs |
-| Design-Ready | 14 screens already designed, clickable prototype available |
+| Differentiator             | Description                                                     |
+|----------------------------|-----------------------------------------------------------------|
+| Professional Documentation | Enterprise-grade planning — every detail covered                |
+| Lean Execution             | Minimal team, maximum output — no overheads                     |
+| Government-Aware           | Understands approval processes, compliance, audit readiness     |
+| Integration-First          | Doesn't duplicate existing systems — enhances them              |
+| Citizen-Centric            | Every feature solves a real problem faced by 15.64 lakh citizens|
+| Budget-Transparent         | Every rupee accounted for — no hidden costs                     |
+| Design-Ready               | 14 screens already designed, clickable prototype available      |
 
 ---
 
@@ -1052,17 +1067,17 @@ FUTURE: One District → All UP → Template for India
 
 ### A. District Statistics
 
-| Parameter | Value |
-|-----------|-------|
-| District | Hathras, Uttar Pradesh |
-| Area | 1,800.1 sq. km |
-| Population | 15,64,708 (Census) |
-| Male | 8,36,127 |
-| Female | 7,28,581 |
-| Language | Hindi |
-| Villages | 683 |
-| Local Bodies | 9 |
-| Police Stations | 11 |
+| Parameter      | Value                          |
+|----------------|--------------------------------|
+| District       | Hathras, Uttar Pradesh         |
+| Area           | 1,800.1 sq. km                 |
+| Population     | 15,64,708 (Census)             |
+| Male           | 8,36,127                       |
+| Female         | 7,28,581                       |
+| Language       | Hindi                          |
+| Villages       | 683                            |
+| Local Bodies   | 9                              |
+| Police Stations| 11                             |
 
 ### B. District Magistrate
 **Shri Atul Vats, IAS**  
@@ -1070,51 +1085,51 @@ Facebook: districtmagistrate.hathras | Twitter: @dm_hathras
 
 ### C. Key External Portals (Integrated in Phase 1)
 
-| # | Portal | URL | Integration |
-|---|--------|-----|-------------|
-| 1 | District Website | hathras.nic.in | WebView + REST API sync |
-| 2 | CM Jansunwai | jansunwai.up.nic.in | Deep link |
-| 3 | UP Bhulekh (Land Records) | upbhulekh.gov.in | Deep link |
-| 4 | RTI Online | rtionline.gov.in | Deep link |
-| 5 | E-Office | upeoffice.in | Deep link |
-| 6 | PDS / Ration | fcs.up.nic.in | Deep link |
-| 7 | Shasanadesh (Govt Orders) | shasanadesh.up.nic.in | Deep link |
-| 8 | DM Dashboard | up.dmdashboard.nic.in | Deep link |
+| #   | Portal                      | URL                      | Integration               |
+|-----|-----------------------------|--------------------------|---------------------------|
+| 1   | District Website            | hathras.nic.in           | WebView + REST API sync   |
+| 2   | CM Jansunwai                | jansunwai.up.nic.in      | Deep link                 |
+| 3   | UP Bhulekh (Land Records)   | upbhulekh.gov.in         | Deep link                 |
+| 4   | RTI Online                  | rtionline.gov.in         | Deep link                 |
+| 5   | E-Office                    | upeoffice.in             | Deep link                 |
+| 6   | PDS / Ration                | fcs.up.nic.in            | Deep link                 |
+| 7   | Shasanadesh (Govt Orders)   | shasanadesh.up.nic.in    | Deep link                 |
+| 8   | DM Dashboard                | up.dmdashboard.nic.in    | Deep link                 |
 
 ### D. Phase 1 Deliverables Checklist
 
-| # | Deliverable | Format | Included |
-|---|-------------|--------|----------|
-| 1 | Android APK (signed, release build) | .apk file | ✅ |
-| 2 | Google Play Store listing | Live listing | ✅ |
-| 3 | Admin Panel (web dashboard) | Web URL | ✅ |
-| 4 | Backend API (hosted) | Firebase | ✅ |
-| 5 | UI/UX Designs | Figma link | ✅ |
-| 6 | Source Code (full repository) | GitHub | ✅ |
-| 7 | User Manual (for citizens) | PDF | ✅ |
-| 8 | Admin Manual (for officers) | PDF | ✅ |
-| 9 | Training Presentation | PPT | ✅ |
-| 10 | QR Codes (for distribution at offices) | PNG/SVG | ✅ |
-| 11 | Test Report | PDF | ✅ |
-| 12 | Requirement Sign-off Document | PDF | ✅ |
+| #    | Deliverable                                | Format          | Included |
+|------|--------------------------------------------|-----------------|---------:|
+| 1    | Android APK (signed, release build)        | .apk file       | ✅       |
+| 2    | Google Play Store listing                  | Live listing    | ✅       |
+| 3    | Admin Panel (web dashboard)                | Web URL         | ✅       |
+| 4    | Backend API (hosted)                       | Firebase        | ✅       |
+| 5    | UI/UX Designs                              | Figma link      | ✅       |
+| 6    | Source Code (full repository)              | GitHub          | ✅       |
+| 7    | User Manual (for citizens)                 | PDF             | ✅       |
+| 8    | Admin Manual (for officers)                | PDF             | ✅       |
+| 9    | Training Presentation                      | PPT             | ✅       |
+| 10   | QR Codes (for distribution at offices)     | PNG/SVG         | ✅       |
+| 11   | Test Report                                | PDF             | ✅       |
+| 12   | Requirement Sign-off Document              | PDF             | ✅       |
 
 ### E. Existing System Reference
 
-| Item | Details |
-|------|---------|
-| Current Website | hathras.nic.in — WordPress/PHP/MySQL on NIC S3WAAS |
-| Existing APK | lachhan.com/files/Hello-Hathras.apk (outdated, needs rebuild) |
-| Data API | lachhan.com/files/data.json |
-| Website Tech | WordPress, wpBakery, jQuery, Polylang, Contact Form 7, FlexSlider |
-| Hosting | NIC S3WAAS CDN (cdn.s3waas.gov.in) |
+| Item             | Details                                                            |
+|------------------|--------------------------------------------------------------------|
+| Current Website  | hathras.nic.in — WordPress/PHP/MySQL on NIC S3WAAS                 |
+| Existing APK     | lachhan.com/files/Hello-Hathras.apk (outdated, needs rebuild)      |
+| Data API         | lachhan.com/files/data.json                                        |
+| Website Tech     | WordPress, wpBakery, jQuery, Polylang, Contact Form 7, FlexSlider  |
+| Hosting          | NIC S3WAAS CDN (cdn.s3waas.gov.in)                                  |
 
 ### F. Contact & Communication
 
-| Role | Person | Channel |
-|------|--------|---------|
-| Developer | Shivam Gupta | Via Parth Maheshwari |
-| District Liaison | Parth Maheshwari | Direct to DM Office |
-| DM Office | Shri Atul Vats, IAS | Official channels |
+| Role               | Person             | Channel                |
+|--------------------|--------------------|------------------------|
+| Developer          | Shivam Gupta       | Via Parth Maheshwari   |
+| District Liaison   | Parth Maheshwari   | Direct to DM Office    |
+| DM Office          | Shri Atul Vats, IAS| Official channels      |
 
 ---
 
